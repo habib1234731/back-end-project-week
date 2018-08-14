@@ -55,7 +55,7 @@ Upon your first commit, please submit a Pull Request and add _both_ the **Trello
 * [x] Create a Registration Page that allows users to create accounts for your app and sign in with email/password
 * [x] Store these User Accounts in your Database
 * [x] Add a Sign In Page
-* [ ] Store Notes in your Database
+* [x] Store Notes in your Database
 
 Build an API Endpoint in your Node App for each of the following, and connect them to your React App. These should all be read from your Database and scoped to the logged in user.
 * [x] Display a list of notes
