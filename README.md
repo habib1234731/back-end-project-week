@@ -27,14 +27,14 @@ Once you have empty projects deployed to these platforms, they can be easily upd
 * [x] Create a Registration Page that allows users to create accounts for your app and sign in with email/password
 * [x] Store these User Accounts in your Database
 * [x] Add a Sign In Page
-* [ ] Store Notes in your Database
+* [x] Store Notes in your Database
 
 Build an API Endpoint for each of the following, and connect it to your React App. These should all be read from your Database and scoped to the logged in user.
-* [ ] Display a list of notes
-* [ ] Create a note with a title and content
-* [ ] View an existing note
-* [ ] Edit an existing note
-* [ ] Delete an existing note
+* [x] Display a list of notes
+* [x] Create a note with a title and content
+* [x] View an existing note
+* [x] Edit an existing note
+* [x] Delete an existing note
 
 Upon your first commit, please submit a Pull Request and add _both_ the **Trello Set Up** and **Backend MVP Features** Task lists to your first Pull Request comment:
 
@@ -58,11 +58,11 @@ Upon your first commit, please submit a Pull Request and add _both_ the **Trello
 * [ ] Store Notes in your Database
 
 Build an API Endpoint in your Node App for each of the following, and connect them to your React App. These should all be read from your Database and scoped to the logged in user.
-* [ ] Display a list of notes
-* [ ] Create a note with a title and content
-* [ ] View an existing note
-* [ ] Edit an existing note
-* [ ] Delete an existing note
+* [x] Display a list of notes
+* [x] Create a note with a title and content
+* [x] View an existing note
+* [x] Edit an existing note
+* [x] Delete an existing note
 * [x] Write tests for your endpoints and models
 ```
 
