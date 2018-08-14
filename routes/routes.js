@@ -11,8 +11,8 @@ const {
 module.exports = (server) => {
   server.route("/").post(createUser);
   server.route("/login").post(login);
-  server.route('/:uid/displayNotes',authenticate).get(getNotes);
-  server.route("/:uid/createNote", authenticate).post(createNote);
-  server.route('/editNote/:id', authenticate).put(editNote);
-  server.route('deleteNote/:id', authenticate).delete(deleteNote);
+  server.route('/:uid/displayNotes').get(authenticate, getNotes);
+  server.route("/:uid/createNote").post(authenticate, createNote);
+  server.route('/editNote/:id').put(authenticate, editNote);
+  server.route('/deleteNote/:id').delete(authenticate, deleteNote);
 };
